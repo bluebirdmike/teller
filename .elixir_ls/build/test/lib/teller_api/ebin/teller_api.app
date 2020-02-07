@@ -1,0 +1,10 @@
+{application,teller_api,
+             [{applications,[kernel,stdlib,elixir,logger,plug,poison,
+                             plug_cowboy]},
+              {description,"teller_api"},
+              {modules,['Elixir.Account','Elixir.Balance',
+                        'Elixir.TellerAPI.Router',
+                        'Elixir.TellerApi.Application','Elixir.Transaction']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.TellerApi.Application',[]}}]}.
